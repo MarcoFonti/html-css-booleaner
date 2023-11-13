@@ -1,3 +1,26 @@
-body {
-    background-color: blue;
+/* Azzero le misure di Default */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+
+/* Accentro il contenuto tramite il Contenitore Principale */
+.container {
+    max-width: 1080px;
+    margin: 0 auto;
+}
+
+/* Altezza, Colore e Immagine al Header */
+header {
+    height: 150px;
+    background-color: rgb(41, 135, 236);
+    background-image: url(../img/pattern.png)
+}
+
+/* Grandezza e Sposto il Logo */
+.logo {
+    width: 200px;
+    height: 100px;
+    padding-top: 50px;
 }
