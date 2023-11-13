@@ -31,7 +31,7 @@ h1 {
 }
 
 /* Sposto il contenuto del contenitore in basso*/
-.main-section{
+.main-section {
     padding-top: 10px;
 }
 
@@ -74,7 +74,22 @@ ul {
     padding-top: 10px;
 }
 
-/* Sposto il mio contenuto + all'interno*/
+/* Sposto il mio contenuto + all'interno */
 li {
     margin-left: 15px;
+}
+
+/* Contenitore Tabella */
+.second-section {
+    padding-top: 10px;
+}
+
+/* Intestazione Tabella */ 
+.clear-blue {
+    background-color: rgb(41, 135, 236);
+}
+
+/* Contenuto Tabella */
+.clear-skyblue{
+    background-color: rgb(10, 244, 244);
 }
